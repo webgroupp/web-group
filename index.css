@@ -1,0 +1,221 @@
+
+.page{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Roboto',sans-serif
+}
+.header{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 16px;
+    min-height: 80px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(33, 59, 126, 1);
+}
+
+.site-logo{
+    width: auto; 
+}
+.site-menu{
+    align-self: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.site-menu > li {
+    display: flex;
+    min-height: 80px;
+    
+}
+.site-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    font-weight: 400;
+    font-size: 20px;
+    color:#fff;
+    background-color: #213B7E;
+    
+}
+.site-link:hover{
+    color:#21387E;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+    
+.login-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 153px;
+    min-height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color:#fff;
+    background-color: rgb(244, 168, 75);
+    text-decoration: none;
+}
+.login-popup{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,100%);
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 500px;
+    min-height: 418px;
+    padding: 26px 28px 56px;
+    background-color: white;
+    border: 1px solid #21387E;
+    box-shadow: 5px 5px 4px 0 rgba (0,0,0,0.25);
+}
+.login-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.login-form> input {
+    width: 100%;
+    max-width: 444px;
+    min-height: 55px;
+    margin-bottom: 56px;
+    border: 1px solid #808060;
+    
+}
+.popup-button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 153px;
+    min-height: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #EA6113;
+    border: none;
+}
+.login-form> input {
+    padding: 0 1em;
+}
+.main{
+    width: 100%;
+    max-width: 911px;
+    margin: 0 auto;
+    flex-grow: 1;
+    padding: 0 2vh;
+    
+}
+.class-foto{
+    object-fit: cover;
+    max-width: 100%;
+    width: 523px;
+    height: 316px;
+}
+.main-heading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.17;
+}
+
+h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+}
+.intro-text{
+    width: 100%;
+    max-width: 634px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.intro-text> em{
+    font-style: italic;
+    color: #cf5510;
+}
+.intro-text> strong{
+    font-weight: 700;
+}
+.students{
+    display: flex;
+    flex-wrap: wrap;
+}
+.student >img{
+    height: auto;
+
+}
+.student >p{
+    height: auto;
+    text-align: center;
+}
+.student-name{
+    display: block;
+    text-align: center;
+}
+.footer{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 16px;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 59, 126,1);
+       
+}
+.copy{
+   color: rgba(255,255,255,0.5) 
+}
+.innop-link{
+    color:rgba(255,255,255,0.5)
+}
+@media (max-width:630px){
+    .header{
+        justify-content: center;
+        padding: 1em 16px;
+        gap: 1em;
+    }
+    .site-logo{
+        width: 100%;
+        min-height: 80px;
+    }
+    .site-menu {
+        justify-content: center;
+    } 
+}
+.active-link{
+    color:#21387E;
+    background-color: rgba(255,255,255);
+    text-decoration: none;
+
+}
+.show-popup{
+    display: block;
+}
