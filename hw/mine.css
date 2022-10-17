@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(245,245,220);
+}
+
+.mine-link{
+    color: black;
+}
+.list { 
+    font-size: 18px;
+    margin-left: 5px;
+    
+}
+table{
+    margin-left: 30px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-bottom: 8px;
+}
+.table-heading{
+    margin-left: 30px;
+}
+td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th{
+    color:rgb(133, 39, 16);
+    font-size: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;  
+}
+.crr{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 16px;
+    min-height: 80px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+}
+.fig{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 1300px;
+}
+.four{
+    width: 40%;
+    max-width: 100px;
+    margin-right: 200px;
+}
+

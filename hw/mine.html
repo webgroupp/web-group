@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашнее задание</title>
+    <link rel="stylesheet" href="./mine.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script defer src="../js/login-popup.js"></script>
+</head>
+<body class="page">
+    <header class="header">
+        <img class="site-logo" src="..//college-education-graduate.svg" alt="логотип">
+        <ul class="site-menu">
+            <li> <a class="site-link" href="../index.html">Главная</a></li>
+            <li> <a class="site-link active-link" href="../pages/students.html">Студенты</a></li>
+            <li> <a class="site-link" href="../pages/about.html">О курсе</a></li>
+            <li> <a class="site-link" href="../pages/contacts.html">Контакты</a></li>
+        </ul>
+        <a class="login-button" href="../login.html">Войти</a>
+        <div class="login-popup">
+            <h2 class="login-heading">Войти на сайт</h2>
+                <form class="login-form" action="" method="GET">
+                    <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+                    <input class="password-input" name="password" type="password" placeholder="Пароль" required="">
+                    <button class="popup-button" type="submit">Войти</button>
+                </form>
+        </div>
+    </header>
+    <main class="main-mine">
+        <h1 class="main-heading">Привет! Меня зовут Наталья Бокачева</h1>
+        <h2>Это моя <em>первая</em> страница, на ней расскажу немного о себе:</h2>
+            <ol class="list">
+                <li> <a class="mine-link" href="#part-1">Образование</a></li>
+                <li> <a class="mine-link" href="#part-2">Достижения</a></li>
+                <li> <a class="mine-link" href="#part-3">Увлечения</a></li>
+                <li> <a class="mine-link" href="#part-4">Работа</a></li>
+            </ol>
+        <h2 class="fig" id="part-1">1.Образование</h2>
+            <p>Закончила Дальневосточный государственный университет (сейчас-Дальневосточный Федеральный Университет) по специальности Прикладная математика</p>
+        <h2 class="fig" id="part-2">2. Достижения</h2>
+            <ul class="list">
+                <li>Награждена медалью "За вклад в реализацию государственной политики в области образования" </li>
+                <li>Мои ученики победители Российского этапа и призеры Финала Международной олимпиады по программированию в Scratch</li>
+            </ul>
+        <h2 class="fig" id="part-3">3. Увлечения</h2>
+            <p> Люблю путешествовать. Увлекаюсь чтением книг. Обожаю Италию и все, что с ней связано: еда, итальянский язык, природа. Фанатка Формулы 1. Ездила в Шанхай на гонки.</p>
+            
+        <h2 class="fig" id="part-4">4. Работа</h2>
+        <h3 class="table-heading"> Начиная с 2012 года</h3>     
+            <table>
+                <tr>
+                    <th>Год</th>
+                    <th>Место</th>
+                    <th>Должность</th>
+                    
+                </tr>
+                <tr>
+                
+                    <td>2012</td>
+                    <td>НПФ "Норильский никель"</td>
+                    <td>Тренинг-менеджер </td>
+                </tr>
+                <tr>
+                
+                    <td>2014</td>
+                    <td>Сеть магазинов детских товаров "Бубль Гум"</td>
+                    <td>Начальник отдела обучения</td>
+                </tr>
+                <tr>
+                    <td>2016</td>
+                    <td>Центр развития робототехники г.Владивосток</td>
+                    <td>Заместитель директора по обучению и развитию персонала</td>
+                </tr>
+            </table>
+            <p>С 2016 года работаю в <strong>Центре развития робототехники г.Владивосток</strong> - <a href="https://robocenter.org">ЦРР.</a> Центр специализируется на кружковой деятельности для детей от 4 до 18 лет. Проводит занятия (очные, дистанционные) по различным направлениям робототехники:</p>
+        <div class="crr">         
+            <ul>
+                <li>Конструирование</li>
+                <li>Робототехника</li> 
+                <li>Программирование</li>
+                <li>Схемотехника</li>
+                <li>И много других образовательных программ</li>
+            </ul>
+            <img class="four" src="160-1609869_-wall-e-lego-mindstorms-ev3-.png" alt="картинка1">
+        </div>    
+            <p>Сейчас Центр развития робототехники состоит из 13 филиалов в 8 населенных пунктах. За время своего существования ученики ЦРР завоевали более 300 наград на соревнованиях различного уровня: городских, региональных, всероссийских и международных.</p> 
+            <div class="fig">
+            <h3>Хотите подробней узнать об учебных курсах, заполните форму:</h3>
+                <form action="#" method="get">
+                    <label for="name"> Ваше имя:  </label>
+                    <input id="name" type="text" name="username" required placeholder="Ваше имя"> 
+                    <label for="phone"> Телефон:  </label>
+                    <input id="phone" type="text" name="telephone" required placeholder="+79ххххххххх">
+                    <button type="submit"> Отправить </button>
+                </form>
+            </div>
+        </main>
+            <footer class="footer">
+            <p class="copy">2022 &copy; <a class="innop-link" href="https://robocenter.org/">Центр развития робототехники</a></p>
+        </footer>
+    </body>
+
+</html>
+               
