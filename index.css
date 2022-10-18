@@ -7,7 +7,6 @@
     font-family: 'Roboto',sans-serif
 }
 .header{
-    position: fixed;
     box-sizing: border-box;
     width: 100%;
     max-width: 1300px;
@@ -121,7 +120,7 @@
     box-sizing: border-box;
     width: 100%;
     max-width: 911px;
-    margin: 80px auto;
+    margin: 30px auto;
     flex-grow: 1;
     padding: 0 2vh;
 }   
@@ -211,22 +210,21 @@ h2{
     max-width: 1202px;
 }
 .student{
-    position: relative;
-    z-index: -1;
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
     padding: 1em;
     box-sizing: border-box;
     width: 200px;
     flex: 1 1 0;
-}   
-
+}
+ 
 @media (min-width: 1150px){ 
     .student {
         max-width: calc(100%/2);
     }
-}    
+}        
 .student-new{
     position: absolute;
     top: 0;
@@ -244,16 +242,14 @@ h2{
     font-size: 18px;
     line-height: 21px;
 }   
-
 .student img{
     object-position:center;
-    margin-bottom: 1em;
     object-fit: contain;
     min-height: 270px;
-    background-color: rgba(222, 64, 7, 0.838);
+    background: #CF5510;
+
 
 }
-
 .student >p{
     height: auto;
     text-align: center;
@@ -263,7 +259,6 @@ h2{
     margin-bottom: 1em;
     display: block;
     text-align: center;
-    
 }
 .student-link{
     display: flex;
@@ -271,9 +266,9 @@ h2{
     align-items: center;
     box-sizing: border-box;
     flex: 1 1 0;
-    color: black;
-
 }
+
+
 .main-about{
     max-width: 820px;
 }
