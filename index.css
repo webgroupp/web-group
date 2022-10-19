@@ -93,6 +93,8 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
+
 .login-form> input {
     width: 100%;
     max-width: 444px;
@@ -199,13 +201,22 @@ h2{
 .intro-text> strong{
     font-weight: 700;
 }
+.student-header{
+    margin-bottom: 37px;
+}
 .students{
     display: flex;
     flex-wrap: wrap;
     max-width: 1202px;
     gap: 50px;
 }
-
+.student-heading{
+    max-width: 1202px;
+    padding: 0 13px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+}
 .main-students{
     max-width: 1202px;
 }
